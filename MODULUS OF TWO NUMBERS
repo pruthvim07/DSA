@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a = 10, b = 3, mod;
+    mod = a % b;
+    printf("Modulus: %d\n", mod);
+    return 0;
+}
